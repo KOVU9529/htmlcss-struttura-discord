@@ -6,7 +6,7 @@
 }
 header{
     background-color: navy;
-    height: 300px;
+    height: 220px;
 }
 .header-top{
     background-color:lightblue ;
@@ -24,8 +24,6 @@ header{
     border: 1px solid black;
     width: 300px;
     background-color: goldenrod;
-
-
 }
 .login{
     border: 1px solid black;
@@ -33,15 +31,53 @@ header{
     background-color: goldenrod;
 }
 .show{
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 270px;
+    height: 190px;
 }
 .violet{
     background-color: violet;
-    height: 200px;
-    width: 400px;
+    height: 140px;
+    width: 350px;
 }
-
+.containerflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.steptwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: lightgrey;
+}
+.img{
+    background-color: rgb(50, 97, 200);
+    height: 200px;
+    width: 250px;
+}
+.text{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+}
+.stepfour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 400px;
+}
+.green{
+    background-color: green;
+    width: 450px;
+    height: 350px;
+}
