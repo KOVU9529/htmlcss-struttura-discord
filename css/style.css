@@ -4,3 +4,44 @@
     box-sizing: border-box;
 
 }
+header{
+    background-color: navy;
+    height: 300px;
+}
+.header-top{
+    background-color:lightblue ;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    border: 1px solid black;
+    width: 100px;
+    background-color: goldenrod;
+}
+.menu{
+    border: 1px solid black;
+    width: 300px;
+    background-color: goldenrod;
+
+
+}
+.login{
+    border: 1px solid black;
+    width: 100px;
+    background-color: goldenrod;
+}
+.show{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+.violet{
+    background-color: violet;
+    height: 200px;
+    width: 400px;
+}
+
