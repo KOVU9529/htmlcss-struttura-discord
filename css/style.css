@@ -19,16 +19,21 @@ header{
     border: 1px solid black;
     width: 100px;
     background-color: goldenrod;
+    text-align: left;
+
 }
 .menu{
     border: 1px solid black;
-    width: 300px;
+    width: 250px;
     background-color: goldenrod;
+    text-align: center;
 }
 .login{
     border: 1px solid black;
     width: 100px;
     background-color: goldenrod;
+    text-align: right;
+
 }
 .show{
     display: flex;
@@ -80,4 +85,51 @@ header{
     background-color: green;
     width: 450px;
     height: 350px;
+}
+.footer-flex{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:430px;
+    
+}
+.final-step{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 450px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.red{
+    background-color: red;
+    width: 150px;
+    height: 300px;
+    border: 1px solid grey;
+}
+.green-footer{
+    background-color: rgb(7, 112, 77);
+    width: 75px;
+    height: 300px;
+    border: 1px solid grey;
+}
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+    background-color: lightgray;
+    width: calc(100%);
+}
+.finale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(60, 223, 169);
+    width: 450px;
+    height: 30px;
+}
+.logo-finale{
+    border: 1px groove lightgray;
 }
