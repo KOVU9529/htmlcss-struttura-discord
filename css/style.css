@@ -129,6 +129,7 @@ header{
     background-color: rgb(60, 223, 169);
     width: 450px;
     height: 30px;
+    margin-bottom: 0%;
 }
 .logo-finale{
     border: 1px groove lightgray;
